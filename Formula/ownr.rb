@@ -31,8 +31,8 @@ class Ownr < Formula
   # user compiles is the bytes PyPI attested to rather than a tarball of a
   # branch. `tests/test_homebrew_formula.py` re-fetches this version's sdist
   # digest from the PyPI JSON API and compares it with the sha256 below.
-  url "https://files.pythonhosted.org/packages/4b/15/9cd9f3dbf799bfcef896800445ad107f48024192609172f831bb0881051c/ownr-0.2.0b4.tar.gz"
-  sha256 "537c885f3851494af9b039ee89ff2d3ebab1578fc3c0eb3ac63f6d692021c0b3"
+  url "https://files.pythonhosted.org/packages/a1/1e/85f4077d2886b6254b78f889ff26281f5b94956504352d2d976da629b081/ownr-0.2.0b5.tar.gz"
+  sha256 "acc62a2f5bbd3ca401148367c94b8d67944cd1d118cddd16ffd9577a4e65aa96"
   # No `license` stanza. `pyproject.toml` declares no license and the PyPI
   # metadata carries none, so there is nothing true to write here. `brew audit
   # --strict` will flag its absence and that finding is correct: the fix is to
@@ -273,13 +273,13 @@ class Ownr < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/53/0c/06f8b233b8fd13b9e5ee11424ef85419ba0d8ba0b3138bf360be2ff56953/urllib3-2.7.0.tar.gz"
-    sha256 "231e0ec3b63ceb14667c67be60f2f2c40a518cb38b03af60abc813da26505f4c"
+    url "https://files.pythonhosted.org/packages/e3/05/b17359e1cefb4f909b5e40b1b90a496d987258916dbbf88e842c729f510e/urllib3-2.8.0.tar.gz"
+    sha256 "63bf2ead4c879426ebf22ef2a781eeb4aa3b4ae798a0435506f8687fd5bb9b63"
   end
 
   resource "uvicorn" do
-    url "https://files.pythonhosted.org/packages/f2/0f/3f86e61397dd33bf2ccf28188c40db6a740658aeebbbf6e7dbc101a1f487/uvicorn-0.52.4.tar.gz"
-    sha256 "73acfee47a0b133c5de13d219492d62d8a31e935f4fe6e41a232451a15379f86"
+    url "https://files.pythonhosted.org/packages/5d/ad/04bbb797c84fc1f26cb171f7394716f4865ffb8d8c5e1eef42565c2dfa6b/uvicorn-0.53.0.tar.gz"
+    sha256 "a9356f0cb89b3b8621529c5d5eebd69bfe154f4c3f68b4cf2de47e45fa855c2e"
   end
 
   resource "wcwidth" do
