@@ -31,8 +31,8 @@ class Ownr < Formula
   # user compiles is the bytes PyPI attested to rather than a tarball of a
   # branch. `tests/test_homebrew_formula.py` re-fetches this version's sdist
   # digest from the PyPI JSON API and compares it with the sha256 below.
-  url "https://files.pythonhosted.org/packages/05/4a/e3f1a3d7da9d178cafbf528f06bf68e0b464c7f8f0e79b6ec5bdde8177ec/ownr-0.2.0b7.tar.gz"
-  sha256 "278e54ce7e81e105801ff1c528b49b6cc1d9145d4f292410d2610341614a1e63"
+  url "https://files.pythonhosted.org/packages/1a/ee/431138771bfe4750d4979b312bd3e1874de0e4b6b131d2444a24cb595a56/ownr-0.2.0b8.tar.gz"
+  sha256 "924fd4eed63964b2cae24f82b7402626413678527b972cb6ba65efee3bfa5d3d"
   # No `license` stanza. `pyproject.toml` declares no license and the PyPI
   # metadata carries none, so there is nothing true to write here. `brew audit
   # --strict` will flag its absence and that finding is correct: the fix is to
@@ -203,8 +203,8 @@ class Ownr < Formula
   end
 
   resource "pyjwt" do
-    url "https://files.pythonhosted.org/packages/af/c3/8a3b59c25070cc61dc517fbdfa5dc0904670c96f605cc69759dc09166b99/pyjwt-2.14.0.tar.gz"
-    sha256 "77283c83fb56ecf566a886c757a714bc83668e38156de2cce8263302f42e0b86"
+    url "https://files.pythonhosted.org/packages/02/a5/5197bfd06417837ac079921c66fa6393f1dea3557272a263cebfef69e432/pyjwt-2.15.0.tar.gz"
+    sha256 "b11c5f9791d7bf51c2b39a81ed669f6b2dbbd669df2942f6c60167e9e3d1abe4"
   end
 
   resource "python-dotenv" do
@@ -283,8 +283,8 @@ class Ownr < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/3d/7a/f98d4ada7c499565ab0c0fcef28a4e54fafa72b8228a6309803c80493c92/wcwidth-0.8.4.tar.gz"
-    sha256 "2dae09efa25253ae2874188e86d6861af3b1652aef4118cdf3f0bda288a957fb"
+    url "https://files.pythonhosted.org/packages/dc/ac/3a943d2792c9bb368aaa8b50121c0f778460ba2d7fbdc0a0366201d9e761/wcwidth-0.9.1.tar.gz"
+    sha256 "5823209b0d43af322ce698c689380d7c15ca31fa8e6e3be8459f27031bef0af5"
   end
 
   def install
