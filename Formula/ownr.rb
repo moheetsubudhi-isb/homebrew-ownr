@@ -31,8 +31,8 @@ class Ownr < Formula
   # user compiles is the bytes PyPI attested to rather than a tarball of a
   # branch. `tests/test_homebrew_formula.py` re-fetches this version's sdist
   # digest from the PyPI JSON API and compares it with the sha256 below.
-  url "https://files.pythonhosted.org/packages/f0/b3/82d6981452f47cb6f9e7ca71bf131922cd179ccdf55777e33fe221afe1a4/ownr-0.2.0b10.tar.gz"
-  sha256 "d5b83e3b8d2f355e0b441f9341f7f604de3ddc71dabe660dab6b5002100a6e87"
+  url "https://files.pythonhosted.org/packages/d0/a6/19d5300566576e3e9f74be28db2a1d4c2170865f3c167824dd9f46dae4c3/ownr-0.2.0b11.tar.gz"
+  sha256 "66bdbe04c5f97f2baba1896d4ae4db710661290b0eb18ba30d07bb854a76a14b"
   # No `license` stanza. `pyproject.toml` declares no license and the PyPI
   # metadata carries none, so there is nothing true to write here. `brew audit
   # --strict` will flag its absence and that finding is correct: the fix is to
