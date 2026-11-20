@@ -1,0 +1,17 @@
+{
+  "name": "ownr",
+  "owner": {
+    "name": "Ownr"
+  },
+  "metadata": {
+    "description": "Ownr shared memory for your AI tools, over MCP.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "ownr",
+      "description": "Ownr shared memory for your AI tools, over MCP.",
+      "source": "./claude-plugin"
+    }
+  ]
+}
