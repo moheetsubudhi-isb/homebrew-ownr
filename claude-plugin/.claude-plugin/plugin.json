@@ -1,0 +1,11 @@
+{
+  "name": "ownr",
+  "displayName": "Ownr",
+  "description": "Ownr shared memory for your AI tools, over MCP.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ownr"
+  },
+  "homepage": "https://ownr.digital",
+  "privacyPolicyUrl": "https://ownr.digital/privacy"
+}

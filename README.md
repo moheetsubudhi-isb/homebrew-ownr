@@ -28,3 +28,20 @@ in the (private) ownr repository, where a test suite holds it in step with the
 package's own metadata — its version, its dependency constraints and the sdist
 digest PyPI serves — and where `brew update-python-resources` is re-run to
 change the `resource` stanzas. Edits belong there, not here.
+
+## Claude plugin
+
+This repository is also a Claude plugin marketplace. Its plugin, `ownr`, connects Claude to
+Ownr's MCP server at `https://ownr.digital/mcp` and carries the connect prompt as a skill.
+Install it in one click from
+<https://claude.ai/customize/plugins/new?marketplace=moheetsubudhi-isb/homebrew-ownr&plugin=ownr>,
+or in Claude Code:
+
+```sh
+/plugin marketplace add moheetsubudhi-isb/homebrew-ownr
+/plugin install ownr@ownr
+```
+
+`claude-plugin/` and `.claude-plugin/marketplace.json` are generated in the private ownr
+repository (`python -m memory.install_links <mcp-url> <dir>`, sample in
+`integrations/claude-plugin/`). Edits belong there, not here.
